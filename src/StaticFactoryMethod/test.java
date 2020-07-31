@@ -7,5 +7,6 @@ public class test {
         fruitFactory.getFruit("banana").eat();
         fruitFactory.getFruit2("apple").eat();
         fruitFactory.getFruit2("banana").eat();
+        System.out.println("成功！");
     }
 }
