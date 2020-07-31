@@ -8,5 +8,6 @@ public class test {
         fruitFactory pearFactory=new pearFactory();
         pear p = (pear) pearFactory.getFruit();
         p.eat();
+        System.out.println("成功！");
     }
 }
