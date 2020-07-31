@@ -10,5 +10,6 @@ public class test {
         fruitFactory fruitFactory1=new southFruitFactory();
         fruitFactory1.getPera().eat();
         fruitFactory1.getApple().eat();
+        System.out.println("成功！");
     }
 }
