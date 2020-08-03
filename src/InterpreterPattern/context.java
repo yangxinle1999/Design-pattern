@@ -1,8 +1,9 @@
 package InterpreterPattern;
 
+//需要解释的文法类
 public class context {
-    private String input;
-    private int output;
+    private String input; //输入
+    private int output;  //输出
 
     public context(String input){
         this.input=input;
