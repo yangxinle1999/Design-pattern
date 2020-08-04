@@ -6,4 +6,5 @@ public class northApple extends apple {
     public void eat() {
         System.out.println("北方苹果！");
     }
+
 }
