@@ -8,7 +8,7 @@ public class fruitFactory {
         }else if (fruitName.equalsIgnoreCase("banana")){
             return banana.class.newInstance();
         }else {
-            System.out.println("输入的水果名有误！");
+            System.out.println("输入的水果名有误");
             return null;
         }
     }
