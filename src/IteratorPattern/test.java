@@ -16,5 +16,8 @@ public class test {
             user user = (IteratorPattern.user) iterator.next();
             System.out.println(user.getAge()+user.getName());
         }
+//        16yyy
+//        12qqq
+//        18ddd
     }
 }
