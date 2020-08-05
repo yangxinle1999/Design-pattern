@@ -9,11 +9,11 @@ public class test {
         TailCarBuild tailCarBuild = new TailCarBuild();
         headCarBuild.setNextCarBuild(bodyCarBuild);
         bodyCarBuild.setNextCarBuild(tailCarBuild);
-        headCarBuild.HandlerCar();
+        headCarBuild.HandlerCar(); //组装车头！组装车身！组装车尾！
 
         System.out.println("---------");
 
         headCarBuild.setNextCarBuild(bodyCarBuild).setNextCarBuild(tailCarBuild);
-        headCarBuild.HandlerCar();
+        headCarBuild.HandlerCar(); //组装车头！组装车身！组装车尾！
     }
 }
