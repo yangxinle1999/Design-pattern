@@ -1,7 +1,5 @@
 package CompositePattern;
 
-import java.util.List;
-
 public class test {
 
     public static void main(String[] args) {
@@ -27,6 +25,15 @@ public class test {
         folder1.add(file1);
         folder1.add(folder2);
         getAll(folder,0);
+//                --蓝桥杯
+//                ----3.txt
+//                ----2.txt
+//                ----大数据
+//                ------Linux
+//                --------2.txt
+//                ------4.txt
+//                --1.txt
+//                --2.txt
 
     }
 
